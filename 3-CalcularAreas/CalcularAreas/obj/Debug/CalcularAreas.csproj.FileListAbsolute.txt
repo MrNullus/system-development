@@ -1,0 +1,10 @@
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\bin\Debug\CalcularAreas.exe.config
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\bin\Debug\CalcularAreas.exe
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\bin\Debug\CalcularAreas.pdb
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\obj\Debug\CalcularAreas.csproj.AssemblyReference.cache
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\obj\Debug\CalcularAreas.frmCalcularAreas.resources
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\obj\Debug\CalcularAreas.Properties.Resources.resources
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\obj\Debug\CalcularAreas.csproj.GenerateResource.cache
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\obj\Debug\CalcularAreas.csproj.CoreCompileInputs.cache
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\obj\Debug\CalcularAreas.exe
+C:\Users\Etec\Desktop\CalcularAreas\CalcularAreas\obj\Debug\CalcularAreas.pdb
