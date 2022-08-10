@@ -1,0 +1,10 @@
+C:\Users\Etec\Desktop\Introducao\Introducao\bin\Debug\Introducao.exe.config
+C:\Users\Etec\Desktop\Introducao\Introducao\bin\Debug\Introducao.exe
+C:\Users\Etec\Desktop\Introducao\Introducao\bin\Debug\Introducao.pdb
+C:\Users\Etec\Desktop\Introducao\Introducao\obj\Debug\Introducao.csproj.AssemblyReference.cache
+C:\Users\Etec\Desktop\Introducao\Introducao\obj\Debug\Introducao.Properties.Resources.resources
+C:\Users\Etec\Desktop\Introducao\Introducao\obj\Debug\Introducao.csproj.GenerateResource.cache
+C:\Users\Etec\Desktop\Introducao\Introducao\obj\Debug\Introducao.csproj.CoreCompileInputs.cache
+C:\Users\Etec\Desktop\Introducao\Introducao\obj\Debug\Introducao.exe
+C:\Users\Etec\Desktop\Introducao\Introducao\obj\Debug\Introducao.pdb
+C:\Users\Etec\Desktop\Introducao\Introducao\obj\Debug\introducaonet.frmCalculadora.resources
