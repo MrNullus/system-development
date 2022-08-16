@@ -1,0 +1,10 @@
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\bin\Debug\ProjetinhoGordola.exe.config
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\bin\Debug\ProjetinhoGordola.exe
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\bin\Debug\ProjetinhoGordola.pdb
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\obj\Debug\ProjetinhoGordola.csproj.AssemblyReference.cache
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\obj\Debug\ProjetinhoGordola.Form1.resources
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\obj\Debug\ProjetinhoGordola.Properties.Resources.resources
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\obj\Debug\ProjetinhoGordola.csproj.GenerateResource.cache
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\obj\Debug\ProjetinhoGordola.csproj.CoreCompileInputs.cache
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\obj\Debug\ProjetinhoGordola.exe
+C:\Users\Etec\Desktop\ProjetinhoGordola\ProjetinhoGordola\obj\Debug\ProjetinhoGordola.pdb
