@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraDeNotasBlaster", "CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster.csproj", "{AC0551FC-1C0A-4686-B58B-21E89DFD44BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC0551FC-1C0A-4686-B58B-21E89DFD44BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0551FC-1C0A-4686-B58B-21E89DFD44BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0551FC-1C0A-4686-B58B-21E89DFD44BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0551FC-1C0A-4686-B58B-21E89DFD44BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C78FE9F3-C223-417E-8885-AE17B9D8058A}
+	EndGlobalSection
+EndGlobal

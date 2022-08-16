@@ -1,0 +1,10 @@
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\bin\Debug\CalculadoraDeNotasBlaster.exe.config
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\bin\Debug\CalculadoraDeNotasBlaster.exe
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\bin\Debug\CalculadoraDeNotasBlaster.pdb
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\obj\Debug\CalculadoraDeNotasBlaster.csproj.AssemblyReference.cache
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\obj\Debug\CalculadoraDeNotasBlaster.Form1.resources
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\obj\Debug\CalculadoraDeNotasBlaster.Properties.Resources.resources
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\obj\Debug\CalculadoraDeNotasBlaster.csproj.GenerateResource.cache
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\obj\Debug\CalculadoraDeNotasBlaster.csproj.CoreCompileInputs.cache
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\obj\Debug\CalculadoraDeNotasBlaster.exe
+C:\Users\Etec\source\repos\CalculadoraDeNotasBlaster\CalculadoraDeNotasBlaster\obj\Debug\CalculadoraDeNotasBlaster.pdb
