@@ -1,3 +1,3 @@
-# Desenvolvimento de Sistemas
+# Systems Development 💜
 
-Repositorio para o Componente curricular de Desenvolvimento de Sistemas. 
+Repository of the curricular component of Systems Development at Etec de Francisco Morato.
