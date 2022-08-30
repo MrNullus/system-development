@@ -1,0 +1,10 @@
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\bin\Debug\ProjetoParOuImpar.exe.config
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\bin\Debug\ProjetoParOuImpar.exe
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\bin\Debug\ProjetoParOuImpar.pdb
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\obj\Debug\ProjetoParOuImpar.csproj.AssemblyReference.cache
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\obj\Debug\ProjetoParOuImpar.Properties.Resources.resources
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\obj\Debug\ProjetoParOuImpar.csproj.GenerateResource.cache
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\obj\Debug\ProjetoParOuImpar.csproj.CoreCompileInputs.cache
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\obj\Debug\ProjetoParOuImpar.exe
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\obj\Debug\ProjetoParOuImpar.pdb
+C:\Users\Etec\Desktop\ProjetoParOuImpar\ProjetoParOuImpar\obj\Debug\ProjetoParOuImpar.frmParOuImpar.resources
