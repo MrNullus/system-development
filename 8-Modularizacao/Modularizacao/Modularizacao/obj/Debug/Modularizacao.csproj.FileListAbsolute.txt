@@ -1,0 +1,10 @@
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\bin\Debug\Modularizacao.exe.config
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\bin\Debug\Modularizacao.exe
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\bin\Debug\Modularizacao.pdb
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\obj\Debug\Modularizacao.csproj.AssemblyReference.cache
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\obj\Debug\Modularizacao.frmModularizacao.resources
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\obj\Debug\Modularizacao.Properties.Resources.resources
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\obj\Debug\Modularizacao.csproj.GenerateResource.cache
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\obj\Debug\Modularizacao.csproj.CoreCompileInputs.cache
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\obj\Debug\Modularizacao.exe
+C:\Users\Etec\Desktop\Modularizacao\Modularizacao\obj\Debug\Modularizacao.pdb
