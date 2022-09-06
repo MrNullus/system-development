@@ -150,7 +150,7 @@ namespace Modularizacao
         // -> limpar todos os controles (as textbox de entrada, a label de saída e os radio buttons)
         public void LimparControles()
         {
-            string[] controles = { txtValor1.Text, txtValor2.Text, lblMensagem };
+            string[] controles = { txtValor1.Text, txtValor2.Text, lblMensagem.Text };
         
             LimparControle(controles);
             SetarPadraoRdbs();
@@ -176,30 +176,32 @@ namespace Modularizacao
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             string[] controles = { txtValor1.Text, txtValor2.Text };
+            string resultado = string.Empty;
          
             if (ValorTxtValido())
             {
                 if (rdbSomar.Checked)
                 {
-                    Calcular("+");
+                    resultado = Calcular("+");
                 } 
                 else if (rdbSubtrair.Checked)
                 {
-                    Calcular("-");
+                    resultado = Calcular("-");
                 } 
                 else if (rdbMultiplicar.Checked)
                 {
-                    Calcular("*");
+                    resultado = Calcular("*");
                 }   
                 else if(rdbDividir.Checked)
                 {
-                    Calcular("/");
+                    resultado = Calcular("/");
                 } 
                 else
                 {
                     MessageBox.Show("Selecione uma das opções de calculos.");
                 }
             
+                lblMensagem.Text = resultado;
                 LimparControle(controles);       
             }
         }
