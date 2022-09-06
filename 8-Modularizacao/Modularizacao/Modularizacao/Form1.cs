@@ -18,6 +18,46 @@ namespace Modularizacao
         }
 
         /* 
+        # Função Validar Entrada do Usuario #
+        */
+        public bool ValorTxtValido() 
+        {
+            bool valorVazio, valorNumerico;
+            string valor1 = txtValor1.Text;
+            string valor2 = txtValor2.Text;
+            
+            valorNumerico = Int.TryParse(valor1, out value)  &&  Int.TryParse(valor2, out value);
+            valorVazio =  valor1 == '' || valor2 == '';
+            
+            if (valorVazio) 
+            {
+                valorVazio = true;
+                MessageBox.Show("Os campos não podem estar vazios, por favor, preencha os");
+            } else 
+            {
+                valorVazio = false;
+            }
+            
+            if (valorNumerico) 
+            {
+                valorNumerico = true;
+            } else 
+            {
+                valorNumerico = false;
+                MessageBox.Show("Informe apenas números inteiros.");
+            }
+            
+            if (!valorVazio && valorNumerico) 
+            {
+                return true;
+            } else 
+            {
+                return false;
+            }
+        }
+    
+
+        /* 
         # Funções Auxiliares #
         */
         public int ConvertParaInt(string valor) 
@@ -80,8 +120,7 @@ namespace Modularizacao
             {
                 calculo = DividirNumeros(valor1, valor2);
             }
-            
-            LimparTxtsDeEntrada();
+         
             return calculo;
         }
 
@@ -89,7 +128,7 @@ namespace Modularizacao
         /*
         # Procedimentos de Limpeza #
         */
-        // -> setar o estado padrão dos radio buttons
+        // -> setar o estado dos radio buttons como false
         public void SetarPadraoRdbs() 
         {
             foreach (var item in this.Controls)
@@ -100,19 +139,23 @@ namespace Modularizacao
                 }
             }
         }
-        // -> limpar todos os txts de entrada
-        public void LimparTxtsDeEntrada()
+        // -> limpar todos os controles especificados em uma lista passada
+        public void LimparControle(string[] controls)
         {
-            txtValor1.Text = string.Empty;
-            txtValor2.Text = string.Empty;
+            foreach (var item in controls)
+            {
+                item.Text = string.Empty;
+            }
         }
         // -> limpar todos os controles (as textbox de entrada, a label de saída e os radio buttons)
         public void LimparControles()
         {
-            LimparTxtsDeEntrada();
-            lblMensagem.Text = string.Empty;
+            string[] controles = { txtValor1.Text, txtValor2.Text, lblMensagem };
+        
+            LimparControle(controles);
             SetarPadraoRdbs();
         }
+
 
         private void btnSomar_Click(object sender, EventArgs e)
         {
@@ -129,29 +172,35 @@ namespace Modularizacao
         private void frmModularizacao_Load(object sender, EventArgs e)
         {
         }
-
+       
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-  
-            if (rdbSomar.Checked)
+            string[] controles = { txtValor1.Text, txtValor2.Text };
+         
+            if (ValorTxtValido())
             {
-                Calcular("+");
-            } 
-            else if (rdbSubtrair.Checked)
-            {
-                Calcular("-");
-            } 
-            else if (rdbMultiplicar.Checked)
-            {
-                Calcular("*");
-            } 
-            else if(rdbDividir.Checked)
-            {
-                Calcular("/");
-            } 
-            else
-            {
-                MessageBox.Show("Selecione uma das opções de calculos.");
+                if (rdbSomar.Checked)
+                {
+                    Calcular("+");
+                } 
+                else if (rdbSubtrair.Checked)
+                {
+                    Calcular("-");
+                } 
+                else if (rdbMultiplicar.Checked)
+                {
+                    Calcular("*");
+                }   
+                else if(rdbDividir.Checked)
+                {
+                    Calcular("/");
+                } 
+                else
+                {
+                    MessageBox.Show("Selecione uma das opções de calculos.");
+                }
+            
+                LimparControle(controles);       
             }
         }
 
