@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,49 +18,80 @@ namespace Modularizacao
         }
 
         /* 
-        # Funções de Calculos #
+        # Funções Auxiliares #
+        */
+        public int ConvertParaInt(string valor) 
+        {
+            return Convert.ToInt32(valor);
+        }
+        public string PegarValorDaTxt(TextBox txt) 
+        {
+            return ConvertParaInt(txt.Text);
+        }
+
+
+        /* 
+        # Funções Para Realizar os Calculos #
         */
         // -> soma
-        public string SomarNumeros(string v1, string v2)
+        public string SomarNumeros(string val1, string val2)
         {
-            int valor1 = Convert.ToInt32(v1);
-            int valor2 = Convert.ToInt32(v2);
-
-            return (valor1 + valor2).ToString();
+            return (val1 + val2).ToString();
         }
         // -> subtração
-        public void SubtrairNumeros(string v1, string v2)
+        public string SubtrairNumeros(string val1, string val2)
         {
-
+            return (val1 - val2).ToString();
         }
         // -> multiplicação
-        public void MultiplicarNumeros(string v1, string v2)
+        public string MultiplicarNumeros(string val1, string val2)
         {
-
+            return (val1 * val2).ToString();
         }
         // -> divisão
-        public void DividirNumeros(string v1, string v2)
+        public string DividirNumeros(string val1, string val2)
         {
-
+            return (val1 / val2).ToString();
         }
+        
+        
+        /* 
+        # Função Que Irá Manipular o Calculo a Ser Feito #
+        */
+        public string Calcular(string op)
+        {
+            int valor1 = PegarValorDaTxt(txtValor1);
+            int valor2 = PegarValorDaTxt(txtValor2);
+            string calculo = string.Empty;
+
+            if (op == "+") 
+            {
+                calculo = SomarNumeros(valor1, valor2);
+            } 
+            else if (op == "-")
+            {
+                calculo = SubtrairNumeros(valor1, valor2);
+            } 
+            else if (op == "*") 
+            {
+                calculo = MultiplicarNumeros(valor1, valor2);
+            }
+            else
+            {
+                calculo = DividirNumeros(valor1, valor2);
+            }
+            
+            LimparTxtsDeEntrada();
+            return calculo;
+        }
+
 
         /*
         # Procedimentos de Limpeza #
         */
-        // -> limpar todos os txts de entrada
-        public void LimparTxtsDeEntrada()
+        // -> setar o estado padrão dos radio buttons
+        public void SetarPadraoRdbs() 
         {
-            txtValor1.Text = string.Empty;
-            txtValor2.Text = string.Empty;
-        }
-
-        // -> limpar todos os controles
-        public void LimparControles()
-        {
-            LimparTxtsDeEntrada();
-
-            lblMensagem.Text = string.Empty;
-
             foreach (var item in this.Controls)
             {
                 if (item is RadioButton)
@@ -69,27 +100,54 @@ namespace Modularizacao
                 }
             }
         }
-
-        public void ManipularClick()
+        // -> limpar todos os txts de entrada
+        public void LimparTxtsDeEntrada()
         {
-            string valor1 = txtValor1.Text;
-            string valor2 = txtValor2.Text;
+            txtValor1.Text = string.Empty;
+            txtValor2.Text = string.Empty;
+        }
+        // -> limpar todos os controles (as textbox de entrada, a label de saída e os radio buttons)
+        public void LimparControles()
+        {
+            LimparTxtsDeEntrada();
+            lblMensagem.Text = string.Empty;
+            SetarPadraoRdbs();
+        }
 
+        private void btnSomar_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void txtValor2_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void txtValor1_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void frmModularizacao_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+  
             if (rdbSomar.Checked)
             {
-                SomarNumeros(valor1, valor2);
+                Calcular("+");
             } 
             else if (rdbSubtrair.Checked)
             {
-                SubtrairNumeros(valor1, valor2);
+                Calcular("-");
             } 
             else if (rdbMultiplicar.Checked)
             {
-                MultiplicarNumeros(valor1, valor2);
+                Calcular("*");
             } 
             else if(rdbDividir.Checked)
             {
-                DividirNumeros(valor1, valor2);
+                Calcular("/");
             } 
             else
             {
@@ -97,44 +155,9 @@ namespace Modularizacao
             }
         }
 
-        private void btnSomar_Click(object sender, EventArgs e)
-        {
-            string resultado = SomarNumeros(txtValor1.Text, txtValor2.Text);
-
-            lblMensagem.Text = resultado;
-        }
-
-        private void txtValor2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtValor1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmModularizacao_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnCalcular_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnLimpar_Click_1(object sender, EventArgs e)
         {
-            
-
-            if (rdbSomar.Checked == true)
-            {
-                lblMensagem.Text = SomarNumeros(valor1, valor2);
-            }
-
-            LimparTxtsDeEntrada();
-
+            LimparControles();
         }
     }
 }
