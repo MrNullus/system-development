@@ -1,0 +1,9 @@
+C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\bin\Debug\Quiz10Perguntas.exe.config
+C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\bin\Debug\Quiz10Perguntas.exe
+C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\bin\Debug\Quiz10Perguntas.pdb
+C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.csprojResolveAssemblyReference.cache
+C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.Form1.resources
+C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.Properties.Resources.resources
+C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.csproj.GenerateResource.Cache
+C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.exe
+C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.pdb
