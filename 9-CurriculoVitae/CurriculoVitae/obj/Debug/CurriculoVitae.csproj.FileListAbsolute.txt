@@ -1,0 +1,10 @@
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\bin\Debug\CurriculoVitae.exe.config
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\bin\Debug\CurriculoVitae.exe
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\bin\Debug\CurriculoVitae.pdb
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.csproj.AssemblyReference.cache
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.frmCurriculo.resources
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.Properties.Resources.resources
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.csproj.GenerateResource.cache
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.csproj.CoreCompileInputs.cache
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.exe
+C:\Users\Etec\source\repos\CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.pdb
