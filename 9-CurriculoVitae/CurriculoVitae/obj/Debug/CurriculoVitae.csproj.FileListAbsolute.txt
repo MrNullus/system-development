@@ -25,3 +25,12 @@ C:\Users\Etec\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\ob
 C:\Users\Etec\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.csproj.CoreCompileInputs.cache
 C:\Users\Etec\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.exe
 C:\Users\Etec\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.pdb
+C:\Users\EtecMorato\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\bin\Debug\CurriculoVitae.exe.config
+C:\Users\EtecMorato\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.exe
+C:\Users\EtecMorato\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.pdb
+C:\Users\EtecMorato\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.csprojResolveAssemblyReference.cache
+C:\Users\EtecMorato\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.frmCurriculo.resources
+C:\Users\EtecMorato\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.Properties.Resources.resources
+C:\Users\EtecMorato\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\obj\Debug\CurriculoVitae.csproj.GenerateResource.Cache
+C:\Users\EtecMorato\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\bin\Debug\CurriculoVitae.exe
+C:\Users\EtecMorato\Desktop\system-development-main\9-CurriculoVitae\CurriculoVitae\bin\Debug\CurriculoVitae.pdb
