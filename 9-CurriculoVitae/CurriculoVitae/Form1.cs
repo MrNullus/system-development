@@ -30,6 +30,7 @@ namespace CurriculoVitae
             string ultimos2Digitos = string.Empty;
 
             bool cpfNaoNumerico = false;
+            bool txtsObrigatoriosVazios = false;
             string cpfDigitado = txtCpf.Text;
 
 
@@ -37,21 +38,53 @@ namespace CurriculoVitae
             int qtdeDigitosDoCpf = txtCpf.TextLength;
             int qtdeDigitosDoTel = txtTelefone.TextLength;
 
-            if (estaVazio(txtCpf) && estaVazio(txtTelefone) && estaVazio(txtEnder)) 
+            if (!estaVazio(txtNome.Text))
             {
+                txtsObrigatoriosVazios = false;
+            }
+            else
+            {
+                txtsObrigatoriosVazios = true;
+                setarLabel(lblMsgNome, "Campo obrigatório!");
+            }
+            if (!estaVazio(txtCpf.Text)) 
+            {
+                txtsObrigatoriosVazios = false;
+            } else
+            {
+                txtsObrigatoriosVazios = true;
                 setarLabel(lblMsgCpf, "Campo obrigatório!");
+            }
+            if (!estaVazio(txtTelefone.Text))
+            {
+                txtsObrigatoriosVazios = false;
+            } else
+            {
+                txtsObrigatoriosVazios = true;
                 setarLabel(lblMsgTelefone, "Campo obrigatório!");
+            }
+            if (!estaVazio(txtEnder.Text))
+            {
+                txtsObrigatoriosVazios = false;
+            } else
+            {
+                txtsObrigatoriosVazios = true;
                 setarLabel(lblMsgEnder, "Campo obrigatório!");
-
-                return;
             }
 
-            if (qtdeDigitosDoCpf != 11 && qtdeDigitosDoTel != 12)
+            if (txtsObrigatoriosVazios)
+            {
+                return;
+            }
+            if (qtdeDigitosDoCpf != 11)
             {
                setarLabel(lblMsgCpf, "O campo CPF deve conter todos os 11 digitos!");
-               setarLabel(lblMsgTelefone, "Telefone está invalido!");
-
-               return;
+                return;
+            } 
+            if (qtdeDigitosDoTel != 12)
+            {
+                setarLabel(lblMsgTelefone, "Telefone está invalido!");
+                return;
             }
 
 
@@ -62,6 +95,8 @@ namespace CurriculoVitae
 
                 if (int.TryParse(carac, out int digito))
                 {
+                    onzeDigitos.Add(digito);
+
                     if (posicao <= 8)
                     {
                         noveDigitos.Add(digito);
@@ -80,6 +115,11 @@ namespace CurriculoVitae
 
 
             // verificações secundarias - (se possui apenas numeros e se é valido)
+            if (temDigitosIguais(onzeDigitos))
+            {
+                setarLabel(lblMsgCpf, "CPF invalido!");
+                return;
+            }
             if (cpfNaoNumerico)
             {
                setarLabel(lblMsgCpf, "Informe apenas os onze digitos do CPF!");
@@ -183,11 +223,19 @@ namespace CurriculoVitae
                 return false;
             }
         }
+        private bool temDigitosIguais(List<int> cpf)
+        {
+            int qtdeDigitosIguais = 0;
+            int aux = 0;
+            for (int d = 1; d <= 10; d++)
+            {
+                if (cpf[aux] == cpf[d])
+                {
+                    qtdeDigitosIguais++;
+                }
+            }
 
-
-        // funções auxiliares
-        private bool estaVazio(TextBox campo) {
-            if (campo.Text == string.Empty)
+            if (qtdeDigitosIguais >= 10)
             {
                 return true;
             }
@@ -196,8 +244,26 @@ namespace CurriculoVitae
                 return false;
             }
         }
+
+
+        // funções auxiliares
+        private bool estaVazio(string campo) {
+            if (campo != "")
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
         private void setarLabel(Label lbl, string msg) {
             lbl.Text = msg;
+        }
+
+        private void frmCurriculo_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
