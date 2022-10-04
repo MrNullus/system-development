@@ -1,0 +1,8 @@
+Classes
+
+Generica -> mais geral
+
+Especifica -> atributos singulares
+
+Criar classes VS
+ Projetc -> Add Class 

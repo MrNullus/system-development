@@ -1,0 +1,10 @@
+C:\Users\risan\source\repos\OOP\OOP\bin\Debug\OOP.exe.config
+C:\Users\risan\source\repos\OOP\OOP\bin\Debug\OOP.exe
+C:\Users\risan\source\repos\OOP\OOP\bin\Debug\OOP.pdb
+C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.csproj.AssemblyReference.cache
+C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.Form1.resources
+C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.Properties.Resources.resources
+C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.csproj.GenerateResource.cache
+C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
+C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.exe
+C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.pdb
