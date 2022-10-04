@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
+
     class Professor
     {
         // # Atributos
@@ -26,23 +27,4 @@ namespace OOP
 
     }
 
-    class ComponenteCurricular
-    {
-        public string Nome { get; set; }
-        public int CargaHoraria { get; set; }
-        public bool ComponenteObrigatorio { get; set; }
-    }
-
-    class Turma
-    {
-        public string Nome { get; set; }
-        public Periodo periodo { get; set; }
-        public List<ComponenteCurricular> Componentes { get; set; }
-    }
-
-    class Periodo
-    {
-        public string Nome { get; set; }
-        public string Turno { get; set; }
-    }
 }
