@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-
     class Periodo
     {
         public string Nome { get; set; }
         public string Turno { get; set; }
     }
-
 }

@@ -8,3 +8,13 @@ C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.csproj.GenerateResource.cache
 C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
 C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.exe
 C:\Users\risan\source\repos\OOP\OOP\obj\Debug\OOP.pdb
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\bin\Debug\OOP.exe.config
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\bin\Debug\OOP.exe
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\bin\Debug\OOP.pdb
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\obj\Debug\OOP.csproj.AssemblyReference.cache
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\obj\Debug\OOP.Form1.resources
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\obj\Debug\OOP.Properties.Resources.resources
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\obj\Debug\OOP.csproj.GenerateResource.cache
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\obj\Debug\OOP.exe
+C:\Users\Etec\source\repos\MrNullus\system-development\10-OOP\OOP\obj\Debug\OOP.pdb

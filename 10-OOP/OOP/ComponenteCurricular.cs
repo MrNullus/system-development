@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-
     class ComponenteCurricular
     {
         public string Nome { get; set; }
         public int CargaHoraria { get; set; }
         public bool ComponenteObrigatorio { get; set; }
     }
-
 }
