@@ -36,7 +36,6 @@ namespace Calculador
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.rdbSoma = new System.Windows.Forms.RadioButton();
             this.rdbSubtracao = new System.Windows.Forms.RadioButton();
             this.rdbMultiplicacao = new System.Windows.Forms.RadioButton();
             this.rdbDivisao = new System.Windows.Forms.RadioButton();
@@ -54,6 +53,7 @@ namespace Calculador
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.rdbSoma = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,17 +105,6 @@ namespace Calculador
             this.label3.TabIndex = 5;
             this.label3.Text = "Valor 3:";
             // 
-            // rdbSoma
-            // 
-            this.rdbSoma.AutoSize = true;
-            this.rdbSoma.Location = new System.Drawing.Point(384, 199);
-            this.rdbSoma.Name = "rdbSoma";
-            this.rdbSoma.Size = new System.Drawing.Size(52, 17);
-            this.rdbSoma.TabIndex = 6;
-            this.rdbSoma.TabStop = true;
-            this.rdbSoma.Text = "Soma";
-            this.rdbSoma.UseVisualStyleBackColor = true;
-            // 
             // rdbSubtracao
             // 
             this.rdbSubtracao.AutoSize = true;
@@ -152,20 +141,26 @@ namespace Calculador
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label4.Location = new System.Drawing.Point(381, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 13);
             this.label4.TabIndex = 10;
             this.label4.Text = "Operações:";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label5.Location = new System.Drawing.Point(488, 180);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(77, 13);
             this.label5.TabIndex = 15;
             this.label5.Text = "Calcular áreas:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // rdbRetangulo
             // 
@@ -235,12 +230,14 @@ namespace Calculador
             // 
             // btnCalcular
             // 
+            this.btnCalcular.BackColor = System.Drawing.Color.Black;
+            this.btnCalcular.ForeColor = System.Drawing.Color.White;
             this.btnCalcular.Location = new System.Drawing.Point(198, 360);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(184, 48);
             this.btnCalcular.TabIndex = 22;
             this.btnCalcular.Text = "Calcular";
-            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // label6
@@ -255,11 +252,12 @@ namespace Calculador
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(199, 441);
+            this.label7.Location = new System.Drawing.Point(370, 442);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(58, 13);
             this.label7.TabIndex = 24;
             this.label7.Text = "Resultado:";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblResultado
             // 
@@ -271,28 +269,42 @@ namespace Calculador
             // 
             // btnLimpar
             // 
+            this.btnLimpar.BackColor = System.Drawing.Color.White;
             this.btnLimpar.Location = new System.Drawing.Point(388, 360);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(196, 48);
             this.btnLimpar.TabIndex = 26;
             this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.UseVisualStyleBackColor = false;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(288, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(364, 40);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(148, 135);
+            this.pictureBox1.Size = new System.Drawing.Size(94, 88);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 27;
             this.pictureBox1.TabStop = false;
+            // 
+            // rdbSoma
+            // 
+            this.rdbSoma.AutoSize = true;
+            this.rdbSoma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rdbSoma.Location = new System.Drawing.Point(384, 199);
+            this.rdbSoma.Name = "rdbSoma";
+            this.rdbSoma.Size = new System.Drawing.Size(52, 17);
+            this.rdbSoma.TabIndex = 6;
+            this.rdbSoma.TabStop = true;
+            this.rdbSoma.Text = "Soma";
+            this.rdbSoma.UseVisualStyleBackColor = true;
             // 
             // frmCalculador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(808, 601);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnLimpar);
@@ -318,6 +330,7 @@ namespace Calculador
             this.Controls.Add(this.txtValor3);
             this.Controls.Add(this.txtValor2);
             this.Controls.Add(this.txtValor1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmCalculador";
             this.Text = "Calculador 1000";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -334,7 +347,6 @@ namespace Calculador
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton rdbSoma;
         private System.Windows.Forms.RadioButton rdbSubtracao;
         private System.Windows.Forms.RadioButton rdbMultiplicacao;
         private System.Windows.Forms.RadioButton rdbDivisao;
@@ -352,6 +364,7 @@ namespace Calculador
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RadioButton rdbSoma;
     }
 }
 
