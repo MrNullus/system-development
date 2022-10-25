@@ -48,6 +48,7 @@ namespace Calculador
             string resultado = string.Empty;
 
 
+
             if (campoValido(txtValor1.Text) && campoValido(txtValor2.Text))
             {
                 if (rdbSoma.Checked)
@@ -115,6 +116,8 @@ namespace Calculador
                 {
                     int valor1 = int.Parse(txtValor1.Text);
 
+                    txtValor2.Enabled = false;
+
                     resultado = calc.CalcularAreaQuadrado(valor1).ToString();
                 }
 
@@ -122,12 +125,16 @@ namespace Calculador
                 {
                     double valor1 = Convert.ToDouble(txtValor1.Text);
 
+                    txtValor2.Enabled = false;
+
                     resultado = calc.CalcularAreaCirculo(valor1).ToString();
                 }
 
                 if (rdbParOuImpar.Checked)
                 {
                     int valor1 = int.Parse(txtValor1.Text);
+
+                    txtValor2.Enabled = false;
 
                     resultado = calc.ParOuImpar(valor1);
                 }
@@ -166,6 +173,10 @@ namespace Calculador
             lblResultado.Text = string.Empty;
 
             SetarPadraoRdbs();
+        }
+
+        private void frmCalculador_Load(object sender, EventArgs e)
+        {
         }
     }
 }

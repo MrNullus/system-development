@@ -71,18 +71,18 @@ namespace Calculador
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(112, 186);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 13);
+            this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Insira: Valor, Lado , Base, ou Raio";
+            this.label1.Text = "Valor 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(112, 235);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 13);
+            this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Insira: Altura ou outro Valor";
+            this.label2.Text = "Valor 2";
             // 
             // rdbSubtracao
             // 
@@ -306,6 +306,7 @@ namespace Calculador
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmCalculador";
             this.Text = "Calculador 1000";
+            this.Load += new System.EventHandler(this.frmCalculador_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
