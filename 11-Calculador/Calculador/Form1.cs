@@ -17,93 +17,135 @@ namespace Calculador
             InitializeComponent();
         }
 
+        public bool vazio(string campo)
+        {
+            if (campo != string.Empty)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public bool isValorNumerico(string campo)
+        {
+            try
+            {
+                double num = Convert.ToDouble(campo);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+
+            }
+        }
+
+
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             Calculador calc = new Calculador();
             string resultado = string.Empty;
 
-            // Operações
-            if (rdbSoma.Checked)
+
+            if (campoValido(txtValor1.Text) && campoValido(txtValor2.Text))
             {
-                double valor1 = Convert.ToDouble(txtValor1.Text);
-                double valor2 = Convert.ToDouble(txtValor2.Text);
+                if (rdbSoma.Checked)
+                {
+                    double valor1 = Convert.ToDouble(txtValor1.Text);
+                    double valor2 = Convert.ToDouble(txtValor2.Text);
 
-                resultado = calc.SomarValores(valor1, valor2).ToString();
-            }
+                    resultado = calc.SomarValores(valor1, valor2).ToString();
+                }
 
-            if (rdbSubtracao.Checked)
+                if (rdbSubtracao.Checked)
+                {
+                    double valor1 = Convert.ToDouble(txtValor1.Text);
+                    double valor2 = Convert.ToDouble(txtValor2.Text);
+
+                    resultado = calc.SomarValores(valor1, valor2).ToString();
+                }
+
+                if (rdbMultiplicacao.Checked)
+                {
+                    double valor1 = Convert.ToDouble(txtValor1.Text);
+                    double valor2 = Convert.ToDouble(txtValor2.Text);
+
+                    resultado = calc.MultiplicarValores(valor1, valor2).ToString();
+                }
+
+                if (rdbDivisao.Checked)
+                {
+                    double valor1 = Convert.ToDouble(txtValor1.Text);
+                    double valor2 = Convert.ToDouble(txtValor2.Text);
+
+                    resultado = calc.DividirValores(valor1, valor2).ToString();
+                }
+
+                if (rdbTriangulo.Checked)
+                {
+                    int valor1 = int.Parse(txtValor1.Text);
+                    int valor2 = int.Parse(txtValor2.Text);
+
+                    resultado = calc.CalcularAreaTriangulo(valor1, valor2).ToString();
+                }
+
+                if (rdbRetangulo.Checked)
+                {
+                    int valor1 = int.Parse(txtValor1.Text);
+                    int valor2 = int.Parse(txtValor2.Text);
+
+                    resultado = calc.CalcularAreaRetangulo(valor1, valor2).ToString();
+                }
+
+                if (rdbImc.Checked && campoValido(txtValor1.Text))
+                {
+                    double valor1 = Convert.ToDouble(txtValor1.Text);
+                    double valor2 = Convert.ToDouble(txtValor2.Text);
+
+                    resultado = calc.CalcularImc(valor1, valor2);
+                }
+            } 
+
+
+            if (campoValido(txtValor1.Text))
             {
-                double valor1 = Convert.ToDouble(txtValor1.Text);
-                double valor2 = Convert.ToDouble(txtValor2.Text);
 
-                resultado = calc.SubtrairValores(valor1, valor2).ToString();
-            }
+                if (rdbQuadrado.Checked)
+                {
+                    int valor1 = int.Parse(txtValor1.Text);
 
-            if (rdbMultiplicacao.Checked)
-            {
-                double valor1 = Convert.ToDouble(txtValor1.Text);
-                double valor2 = Convert.ToDouble(txtValor2.Text);
+                    resultado = calc.CalcularAreaQuadrado(valor1).ToString();
+                }
 
-                resultado = calc.MultiplicarValores(valor1, valor2).ToString();
-            }
+                if (rdbCirculo.Checked)
+                {
+                    double valor1 = Convert.ToDouble(txtValor1.Text);
 
-            // Calculos das Áreas
-            if (rdbDivisao.Checked)
-            {
-                double valor1 = Convert.ToDouble(txtValor1.Text);
-                double valor2 = Convert.ToDouble(txtValor2.Text);
+                    resultado = calc.CalcularAreaCirculo(valor1).ToString();
+                }
 
-                resultado = calc.DividirValores(valor1, valor2).ToString();
-            }
+                if (rdbParOuImpar.Checked)
+                {
+                    int valor1 = int.Parse(txtValor1.Text);
 
-            if (rdbQuadrado.Checked)
-            {
-                int valor1 = int.Parse(txtValor1.Text);
+                    resultado = calc.ParOuImpar(valor1);
+                }
 
-                resultado = calc.CalcularAreaQuadrado(valor1).ToString();
-            }
-
-            if (rdbCirculo.Checked)
-            {
-                double valor1 = Convert.ToDouble(txtValor1.Text);
-
-                resultado = calc.CalcularAreaCirculo(valor1).ToString();
-            }
-
-            if (rdbTriangulo.Checked)
-            {
-                int valor1 = int.Parse(txtValor1.Text);
-                int valor2 = int.Parse(txtValor2.Text);
-
-                resultado = calc.CalcularAreaTriangulo(valor1, valor2).ToString();
-            }
-
-            if (rdbRetangulo.Checked)
-            {
-                int valor1 = int.Parse(txtValor1.Text);
-                int valor2 = int.Parse(txtValor2.Text);
-
-                resultado = calc.CalcularAreaRetangulo(valor1, valor2).ToString();
-            }
-
-            // Outros Calculos
-            if (rdbParOuImpar.Checked)
-            {
-                int valor1 = int.Parse(txtValor1.Text);
-
-                resultado = calc.ParOuImpar(valor1);
-            }
-
-            if (rdbImc.Checked)
-            {
-                double valor1 = Convert.ToDouble(txtValor1.Text);
-                double valor2 = Convert.ToDouble(txtValor2.Text);
-
-                resultado = calc.CalcularImc(valor1, valor2);
             }
 
             lblResultado.Text = resultado;
 
+        }
+
+        private bool campoValido(string campo)
+        {
+            if (isValorNumerico(campo) && !vazio(campo))
+            {
+                return true;
+            }
+
+            return false;
         }
 
         public void SetarPadraoRdbs()

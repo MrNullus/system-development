@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculador
 {
-    class Calculador
+    public class Calculador : ICalculador
     {
 
         // Operações
@@ -32,9 +32,9 @@ namespace Calculador
 
 
         // Calculos das Áreas
-        public int CalcularAreaQuadrado(int l)
+        public int CalcularAreaQuadrado(int lado)
         {
-            return l * l;
+            return lado * lado;
         }
 
         public double CalcularAreaCirculo(double r)
