@@ -7,3 +7,13 @@ C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perg
 C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.csproj.GenerateResource.Cache
 C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.exe
 C:\Users\EtecMorato\Desktop\system-development-main\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.pdb
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\bin\Debug\Quiz10Perguntas.exe.config
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\bin\Debug\Quiz10Perguntas.exe
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\bin\Debug\Quiz10Perguntas.pdb
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.csproj.AssemblyReference.cache
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.Form1.resources
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.Properties.Resources.resources
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.csproj.GenerateResource.cache
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.csproj.CoreCompileInputs.cache
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.exe
+C:\Users\Etec\Desktop\system-development\6-Quiz10Perguntas\Quiz10Perguntas\obj\Debug\Quiz10Perguntas.pdb
