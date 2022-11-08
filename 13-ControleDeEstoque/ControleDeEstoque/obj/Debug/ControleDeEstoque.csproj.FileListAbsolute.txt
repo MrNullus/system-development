@@ -1,0 +1,12 @@
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\bin\Debug\ControleDeEstoque.exe.config
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\bin\Debug\ControleDeEstoque.exe
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\bin\Debug\ControleDeEstoque.pdb
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\obj\Debug\ControleDeEstoque.csproj.AssemblyReference.cache
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\obj\Debug\ControleDeEstoque.Form1.resources
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\obj\Debug\ControleDeEstoque.FrmCadCategoriaProduto.resources
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\obj\Debug\ControleDeEstoque.FrmCadProduto.resources
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\obj\Debug\ControleDeEstoque.Properties.Resources.resources
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\obj\Debug\ControleDeEstoque.csproj.GenerateResource.cache
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\obj\Debug\ControleDeEstoque.csproj.CoreCompileInputs.cache
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\obj\Debug\ControleDeEstoque.exe
+C:\Users\Etec\Desktop\ControleDeEstoque\ControleDeEstoque\obj\Debug\ControleDeEstoque.pdb
