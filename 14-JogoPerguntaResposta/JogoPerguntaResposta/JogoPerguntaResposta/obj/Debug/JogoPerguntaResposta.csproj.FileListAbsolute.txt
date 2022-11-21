@@ -1,0 +1,17 @@
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\bin\Debug\JogoPerguntaResposta.exe.config
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\bin\Debug\JogoPerguntaResposta.exe
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\bin\Debug\JogoPerguntaResposta.pdb
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.csproj.AssemblyReference.cache
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPrincipal.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.Properties.Resources.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.csproj.GenerateResource.cache
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.csproj.CoreCompileInputs.cache
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.exe
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.pdb
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta1.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta2.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta3.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta4.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta5.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta6.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta7.resources

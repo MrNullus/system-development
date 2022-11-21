@@ -46,14 +46,104 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmPergunta1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmPergunta1.Designer.cs">
+      <DependentUpon>FrmPergunta1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPergunta10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPergunta10.Designer.cs">
+      <DependentUpon>FrmPergunta10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPergunta2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPergunta2.Designer.cs">
+      <DependentUpon>FrmPergunta2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPergunta3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPergunta3.Designer.cs">
+      <DependentUpon>FrmPergunta3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPergunta4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPergunta4.Designer.cs">
+      <DependentUpon>FrmPergunta4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPergunta5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPergunta5.Designer.cs">
+      <DependentUpon>FrmPergunta5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPergunta6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPergunta6.Designer.cs">
+      <DependentUpon>FrmPergunta6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPergunta7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPergunta7.Designer.cs">
+      <DependentUpon>FrmPergunta7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPergunta8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPergunta8.Designer.cs">
+      <DependentUpon>FrmPergunta8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPergunta9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPergunta9.Designer.cs">
+      <DependentUpon>FrmPergunta9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPlacar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlacar.Designer.cs">
+      <DependentUpon>FrmPlacar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmPergunta1.resx">
+      <DependentUpon>FrmPergunta1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPergunta2.resx">
+      <DependentUpon>FrmPergunta2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPergunta3.resx">
+      <DependentUpon>FrmPergunta3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPergunta4.resx">
+      <DependentUpon>FrmPergunta4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPergunta5.resx">
+      <DependentUpon>FrmPergunta5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPergunta6.resx">
+      <DependentUpon>FrmPergunta6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPergunta7.resx">
+      <DependentUpon>FrmPergunta7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
