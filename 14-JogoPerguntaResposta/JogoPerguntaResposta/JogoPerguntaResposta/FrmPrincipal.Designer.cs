@@ -62,7 +62,7 @@ namespace JogoPerguntaResposta
             this.btnIniciar.ForeColor = System.Drawing.Color.Green;
             this.btnIniciar.Location = new System.Drawing.Point(338, 109);
             this.btnIniciar.Name = "btnIniciar";
-            this.btnIniciar.Size = new System.Drawing.Size(256, 82);
+            this.btnIniciar.Size = new System.Drawing.Size(400, 82);
             this.btnIniciar.TabIndex = 2;
             this.btnIniciar.Text = "Iniciar";
             this.btnIniciar.UseVisualStyleBackColor = false;

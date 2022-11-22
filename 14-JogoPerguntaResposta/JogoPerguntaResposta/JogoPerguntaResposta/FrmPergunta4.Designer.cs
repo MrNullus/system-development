@@ -31,15 +31,15 @@ namespace JogoPerguntaResposta
         {
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.btnResponder = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.lblNomeJogador = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rdbPergunta4RespostaE = new System.Windows.Forms.RadioButton();
+            this.rdbPergunta4RespostaD = new System.Windows.Forms.RadioButton();
+            this.rdbPergunta4RespostaC = new System.Windows.Forms.RadioButton();
+            this.rdbPergunta4RespostaB = new System.Windows.Forms.RadioButton();
+            this.rdbPergunta4RespostaA = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,9 +50,9 @@ namespace JogoPerguntaResposta
             this.label2.ForeColor = System.Drawing.Color.Honeydew;
             this.label2.Location = new System.Drawing.Point(118, 168);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(677, 30);
+            this.label2.Size = new System.Drawing.Size(444, 30);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel libero?";
+            this.label2.Text = "Qual é o ponto turístico mais famoso de Paris?";
             // 
             // label1
             // 
@@ -64,85 +64,6 @@ namespace JogoPerguntaResposta
             this.label1.Size = new System.Drawing.Size(113, 30);
             this.label1.TabIndex = 13;
             this.label1.Text = "Pergunta 4";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton5);
-            this.groupBox1.Controls.Add(this.radioButton4);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(123, 276);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(972, 177);
-            this.groupBox1.TabIndex = 12;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton3.Location = new System.Drawing.Point(7, 136);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(134, 26);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton5.Location = new System.Drawing.Point(7, 107);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(134, 26);
-            this.radioButton5.TabIndex = 4;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "radioButton5";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton4.Location = new System.Drawing.Point(7, 78);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(134, 26);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton2.Location = new System.Drawing.Point(7, 49);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(134, 26);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton1.Location = new System.Drawing.Point(7, 20);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(134, 26);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // btnResponder
             // 
@@ -180,15 +101,94 @@ namespace JogoPerguntaResposta
             this.lblNomeJogador.TabIndex = 9;
             this.lblNomeJogador.Text = "label1";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rdbPergunta4RespostaE);
+            this.groupBox1.Controls.Add(this.rdbPergunta4RespostaD);
+            this.groupBox1.Controls.Add(this.rdbPergunta4RespostaC);
+            this.groupBox1.Controls.Add(this.rdbPergunta4RespostaB);
+            this.groupBox1.Controls.Add(this.rdbPergunta4RespostaA);
+            this.groupBox1.Location = new System.Drawing.Point(123, 269);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(972, 223);
+            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // rdbPergunta4RespostaE
+            // 
+            this.rdbPergunta4RespostaE.AutoSize = true;
+            this.rdbPergunta4RespostaE.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta4RespostaE.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta4RespostaE.Location = new System.Drawing.Point(7, 181);
+            this.rdbPergunta4RespostaE.Name = "rdbPergunta4RespostaE";
+            this.rdbPergunta4RespostaE.Size = new System.Drawing.Size(152, 26);
+            this.rdbPergunta4RespostaE.TabIndex = 2;
+            this.rdbPergunta4RespostaE.TabStop = true;
+            this.rdbPergunta4RespostaE.Text = "Arco do Triunfo";
+            this.rdbPergunta4RespostaE.UseVisualStyleBackColor = true;
+            // 
+            // rdbPergunta4RespostaD
+            // 
+            this.rdbPergunta4RespostaD.AutoSize = true;
+            this.rdbPergunta4RespostaD.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta4RespostaD.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta4RespostaD.Location = new System.Drawing.Point(7, 141);
+            this.rdbPergunta4RespostaD.Name = "rdbPergunta4RespostaD";
+            this.rdbPergunta4RespostaD.Size = new System.Drawing.Size(76, 26);
+            this.rdbPergunta4RespostaD.TabIndex = 4;
+            this.rdbPergunta4RespostaD.TabStop = true;
+            this.rdbPergunta4RespostaD.Text = "Vielas";
+            this.rdbPergunta4RespostaD.UseVisualStyleBackColor = true;
+            // 
+            // rdbPergunta4RespostaC
+            // 
+            this.rdbPergunta4RespostaC.AutoSize = true;
+            this.rdbPergunta4RespostaC.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta4RespostaC.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta4RespostaC.Location = new System.Drawing.Point(7, 100);
+            this.rdbPergunta4RespostaC.Name = "rdbPergunta4RespostaC";
+            this.rdbPergunta4RespostaC.Size = new System.Drawing.Size(144, 26);
+            this.rdbPergunta4RespostaC.TabIndex = 3;
+            this.rdbPergunta4RespostaC.TabStop = true;
+            this.rdbPergunta4RespostaC.Text = "Posto Ibiranga";
+            this.rdbPergunta4RespostaC.UseVisualStyleBackColor = true;
+            // 
+            // rdbPergunta4RespostaB
+            // 
+            this.rdbPergunta4RespostaB.AutoSize = true;
+            this.rdbPergunta4RespostaB.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta4RespostaB.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta4RespostaB.Location = new System.Drawing.Point(7, 62);
+            this.rdbPergunta4RespostaB.Name = "rdbPergunta4RespostaB";
+            this.rdbPergunta4RespostaB.Size = new System.Drawing.Size(138, 26);
+            this.rdbPergunta4RespostaB.TabIndex = 1;
+            this.rdbPergunta4RespostaB.TabStop = true;
+            this.rdbPergunta4RespostaB.Text = "A Torre Eiffel.";
+            this.rdbPergunta4RespostaB.UseVisualStyleBackColor = true;
+            // 
+            // rdbPergunta4RespostaA
+            // 
+            this.rdbPergunta4RespostaA.AutoSize = true;
+            this.rdbPergunta4RespostaA.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta4RespostaA.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta4RespostaA.Location = new System.Drawing.Point(7, 20);
+            this.rdbPergunta4RespostaA.Name = "rdbPergunta4RespostaA";
+            this.rdbPergunta4RespostaA.Size = new System.Drawing.Size(165, 26);
+            this.rdbPergunta4RespostaA.TabIndex = 0;
+            this.rdbPergunta4RespostaA.TabStop = true;
+            this.rdbPergunta4RespostaA.Text = "A casa do Renan";
+            this.rdbPergunta4RespostaA.UseVisualStyleBackColor = true;
+            // 
             // FrmPergunta4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1229, 687);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnResponder);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.lblNomeJogador);
@@ -196,6 +196,7 @@ namespace JogoPerguntaResposta
             this.Name = "FrmPergunta4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPergunta4";
+            this.Load += new System.EventHandler(this.FrmPergunta4_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -207,14 +208,14 @@ namespace JogoPerguntaResposta
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Button btnResponder;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label lblNomeJogador;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton rdbPergunta4RespostaE;
+        private System.Windows.Forms.RadioButton rdbPergunta4RespostaD;
+        private System.Windows.Forms.RadioButton rdbPergunta4RespostaC;
+        private System.Windows.Forms.RadioButton rdbPergunta4RespostaB;
+        private System.Windows.Forms.RadioButton rdbPergunta4RespostaA;
     }
 }

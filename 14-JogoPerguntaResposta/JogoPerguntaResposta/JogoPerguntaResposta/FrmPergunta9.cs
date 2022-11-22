@@ -16,5 +16,10 @@ namespace JogoPerguntaResposta
         {
             InitializeComponent();
         }
+
+        private void FrmPergunta9_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -123,6 +123,9 @@
     <EmbeddedResource Include="FrmPergunta1.resx">
       <DependentUpon>FrmPergunta1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmPergunta10.resx">
+      <DependentUpon>FrmPergunta10.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPergunta2.resx">
       <DependentUpon>FrmPergunta2.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,6 +143,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPergunta7.resx">
       <DependentUpon>FrmPergunta7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPergunta8.resx">
+      <DependentUpon>FrmPergunta8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPergunta9.resx">
+      <DependentUpon>FrmPergunta9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>

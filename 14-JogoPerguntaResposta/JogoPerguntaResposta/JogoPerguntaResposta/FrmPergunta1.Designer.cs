@@ -33,11 +33,11 @@ namespace JogoPerguntaResposta
             this.btnSair = new System.Windows.Forms.Button();
             this.btnResponder = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.rdbPergunta1RespostaE = new System.Windows.Forms.RadioButton();
+            this.rdbPergunta1RespostaD = new System.Windows.Forms.RadioButton();
+            this.rdbPergunta1RespostaC = new System.Windows.Forms.RadioButton();
+            this.rdbPergunta1RespostaB = new System.Windows.Forms.RadioButton();
+            this.rdbPergunta1RespostaA = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -81,82 +81,83 @@ namespace JogoPerguntaResposta
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton5);
-            this.groupBox1.Controls.Add(this.radioButton4);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(143, 315);
+            this.groupBox1.Controls.Add(this.rdbPergunta1RespostaE);
+            this.groupBox1.Controls.Add(this.rdbPergunta1RespostaD);
+            this.groupBox1.Controls.Add(this.rdbPergunta1RespostaC);
+            this.groupBox1.Controls.Add(this.rdbPergunta1RespostaB);
+            this.groupBox1.Controls.Add(this.rdbPergunta1RespostaA);
+            this.groupBox1.Location = new System.Drawing.Point(143, 284);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(972, 177);
+            this.groupBox1.Size = new System.Drawing.Size(972, 223);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // radioButton1
+            // rdbPergunta1RespostaE
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton1.Location = new System.Drawing.Point(7, 20);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(134, 26);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdbPergunta1RespostaE.AutoSize = true;
+            this.rdbPergunta1RespostaE.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta1RespostaE.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta1RespostaE.Location = new System.Drawing.Point(7, 181);
+            this.rdbPergunta1RespostaE.Name = "rdbPergunta1RespostaE";
+            this.rdbPergunta1RespostaE.Size = new System.Drawing.Size(74, 26);
+            this.rdbPergunta1RespostaE.TabIndex = 2;
+            this.rdbPergunta1RespostaE.TabStop = true;
+            this.rdbPergunta1RespostaE.Text = "SEGA";
+            this.rdbPergunta1RespostaE.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdbPergunta1RespostaD
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton2.Location = new System.Drawing.Point(7, 49);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(134, 26);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdbPergunta1RespostaD.AutoSize = true;
+            this.rdbPergunta1RespostaD.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta1RespostaD.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta1RespostaD.Location = new System.Drawing.Point(7, 141);
+            this.rdbPergunta1RespostaD.Name = "rdbPergunta1RespostaD";
+            this.rdbPergunta1RespostaD.Size = new System.Drawing.Size(72, 26);
+            this.rdbPergunta1RespostaD.TabIndex = 4;
+            this.rdbPergunta1RespostaD.TabStop = true;
+            this.rdbPergunta1RespostaD.Text = "Hooli";
+            this.rdbPergunta1RespostaD.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rdbPergunta1RespostaC
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton3.Location = new System.Drawing.Point(7, 136);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(134, 26);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdbPergunta1RespostaC.AutoSize = true;
+            this.rdbPergunta1RespostaC.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta1RespostaC.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta1RespostaC.Location = new System.Drawing.Point(7, 100);
+            this.rdbPergunta1RespostaC.Name = "rdbPergunta1RespostaC";
+            this.rdbPergunta1RespostaC.Size = new System.Drawing.Size(73, 26);
+            this.rdbPergunta1RespostaC.TabIndex = 3;
+            this.rdbPergunta1RespostaC.TabStop = true;
+            this.rdbPergunta1RespostaC.Text = "Apple";
+            this.rdbPergunta1RespostaC.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rdbPergunta1RespostaB
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton4.Location = new System.Drawing.Point(7, 78);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(134, 26);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rdbPergunta1RespostaB.AutoSize = true;
+            this.rdbPergunta1RespostaB.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta1RespostaB.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta1RespostaB.Location = new System.Drawing.Point(7, 57);
+            this.rdbPergunta1RespostaB.Name = "rdbPergunta1RespostaB";
+            this.rdbPergunta1RespostaB.Size = new System.Drawing.Size(110, 26);
+            this.rdbPergunta1RespostaB.TabIndex = 1;
+            this.rdbPergunta1RespostaB.TabStop = true;
+            this.rdbPergunta1RespostaB.Text = "Pied Piper";
+            this.rdbPergunta1RespostaB.UseVisualStyleBackColor = true;
+            this.rdbPergunta1RespostaB.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // radioButton5
+            // rdbPergunta1RespostaA
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.radioButton5.Location = new System.Drawing.Point(7, 107);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(134, 26);
-            this.radioButton5.TabIndex = 4;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "radioButton5";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rdbPergunta1RespostaA.AutoSize = true;
+            this.rdbPergunta1RespostaA.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta1RespostaA.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta1RespostaA.Location = new System.Drawing.Point(7, 20);
+            this.rdbPergunta1RespostaA.Name = "rdbPergunta1RespostaA";
+            this.rdbPergunta1RespostaA.Size = new System.Drawing.Size(108, 26);
+            this.rdbPergunta1RespostaA.TabIndex = 0;
+            this.rdbPergunta1RespostaA.TabStop = true;
+            this.rdbPergunta1RespostaA.Text = "Enterprise";
+            this.rdbPergunta1RespostaA.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -176,9 +177,9 @@ namespace JogoPerguntaResposta
             this.label2.ForeColor = System.Drawing.Color.Honeydew;
             this.label2.Location = new System.Drawing.Point(138, 207);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(677, 30);
+            this.label2.Size = new System.Drawing.Size(792, 30);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel libero?";
+            this.label2.Text = "Qual o nome da startup company fundada por Richard Hendricks, em Silicon Valley?";
             // 
             // FrmPergunta1
             // 
@@ -211,11 +212,11 @@ namespace JogoPerguntaResposta
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnResponder;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rdbPergunta1RespostaE;
+        private System.Windows.Forms.RadioButton rdbPergunta1RespostaD;
+        private System.Windows.Forms.RadioButton rdbPergunta1RespostaC;
+        private System.Windows.Forms.RadioButton rdbPergunta1RespostaB;
+        private System.Windows.Forms.RadioButton rdbPergunta1RespostaA;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
