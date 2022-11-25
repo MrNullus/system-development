@@ -16,5 +16,10 @@ namespace JogoPerguntaResposta
         {
             InitializeComponent();
         }
+
+        private void lblNomeJogador_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
