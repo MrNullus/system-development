@@ -77,6 +77,7 @@ namespace JogoPerguntaResposta
             this.btnResponder.TabIndex = 11;
             this.btnResponder.Text = "Responder";
             this.btnResponder.UseVisualStyleBackColor = false;
+            this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
             // 
             // btnSair
             // 
@@ -89,6 +90,7 @@ namespace JogoPerguntaResposta
             this.btnSair.TabIndex = 10;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // lblNomeJogador
             // 

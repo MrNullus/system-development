@@ -38,20 +38,20 @@ namespace JogoPerguntaResposta
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Myriad Pro Cond", 18F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
             this.label1.Location = new System.Drawing.Point(333, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 28);
+            this.label1.Size = new System.Drawing.Size(108, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Jogador:";
             // 
             // txtNomeJogador
             // 
             this.txtNomeJogador.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeJogador.Location = new System.Drawing.Point(415, 44);
+            this.txtNomeJogador.Location = new System.Drawing.Point(447, 44);
             this.txtNomeJogador.Name = "txtNomeJogador";
-            this.txtNomeJogador.Size = new System.Drawing.Size(463, 35);
+            this.txtNomeJogador.Size = new System.Drawing.Size(431, 35);
             this.txtNomeJogador.TabIndex = 1;
             // 
             // btnIniciar

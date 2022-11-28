@@ -46,11 +46,11 @@ namespace JogoPerguntaResposta
             // lblNomeJogador
             // 
             this.lblNomeJogador.AutoSize = true;
-            this.lblNomeJogador.Font = new System.Drawing.Font("Myriad Pro Cond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeJogador.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNomeJogador.ForeColor = System.Drawing.Color.Gold;
             this.lblNomeJogador.Location = new System.Drawing.Point(1042, 79);
             this.lblNomeJogador.Name = "lblNomeJogador";
-            this.lblNomeJogador.Size = new System.Drawing.Size(73, 33);
+            this.lblNomeJogador.Size = new System.Drawing.Size(92, 31);
             this.lblNomeJogador.TabIndex = 0;
             this.lblNomeJogador.Text = "label1";
             // 
@@ -65,6 +65,7 @@ namespace JogoPerguntaResposta
             this.btnSair.TabIndex = 4;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnResponder
             // 
@@ -78,6 +79,7 @@ namespace JogoPerguntaResposta
             this.btnResponder.TabIndex = 5;
             this.btnResponder.Text = "Responder";
             this.btnResponder.UseVisualStyleBackColor = false;
+            this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
             // 
             // groupBox1
             // 

@@ -28,6 +28,11 @@ namespace JogoPerguntaResposta
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
+           
+        }
+
+        private void btnResponder_Click(object sender, EventArgs e)
+        {
             double pontuacao;
 
             if (rdbPergunta1RespostaA.Checked)
@@ -50,6 +55,20 @@ namespace JogoPerguntaResposta
             {
                 pontuacao = 0.0;
             }
+
+            Hide();
+
+            FrmPergunta2 pergunta2 = new FrmPergunta2();
+
+            pergunta2.NomeJogador = NomeJogador;
+            pergunta2.Show();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se sair agora, a pontuação será perdida!");
+
+            Close();
         }
     }
 }
