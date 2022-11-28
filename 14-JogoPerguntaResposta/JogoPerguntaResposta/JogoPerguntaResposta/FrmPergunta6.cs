@@ -19,6 +19,11 @@ namespace JogoPerguntaResposta
             InitializeComponent();
         }
 
+        private void FrmPergunta6_Load(object sender, EventArgs e)
+        {
+            lblNomeJogador.Text = NomeJogador;
+        }
+
         private void btnResponder_Click(object sender, EventArgs e)
         {
             Hide();
