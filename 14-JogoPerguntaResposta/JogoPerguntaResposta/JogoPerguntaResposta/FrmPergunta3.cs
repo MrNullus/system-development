@@ -13,6 +13,7 @@ namespace JogoPerguntaResposta
     public partial class FrmPergunta3 : Form
     {
         public string NomeJogador { get; set; }
+        public double Pontuacao { get; set; }
 
         public FrmPergunta3()
         {
@@ -33,6 +34,28 @@ namespace JogoPerguntaResposta
 
         private void btnResponder_Click(object sender, EventArgs e)
         {
+            if (rdbPergunta3RespostaA.Checked)
+            {
+                Pontuacao = 1.0;
+            }
+            else if (rdbPergunta3RespostaB.Checked)
+            {
+                Pontuacao = 0.8;
+            }
+            else if (rdbPergunta3RespostaC.Checked)
+            {
+                Pontuacao = 0.6;
+            }
+            else if (rdbPergunta3RespostaD.Checked)
+            {
+                Pontuacao = 0.4;
+            }
+            else if (rdbPergunta3RespostaE.Checked)
+            {
+                Pontuacao = 0.0;
+            }
+
+
             Hide();
 
             FrmPergunta4 pergunta4 = new FrmPergunta4();
