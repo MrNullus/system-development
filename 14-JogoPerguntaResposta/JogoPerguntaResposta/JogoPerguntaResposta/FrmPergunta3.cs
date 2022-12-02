@@ -36,11 +36,11 @@ namespace JogoPerguntaResposta
         {
             if (rdbPergunta3RespostaA.Checked)
             {
-                Pontuacao = 1.0;
+                Pontuacao = 0.0;
             }
             else if (rdbPergunta3RespostaB.Checked)
             {
-                Pontuacao = 0.8;
+                Pontuacao = 0.4;
             }
             else if (rdbPergunta3RespostaC.Checked)
             {
@@ -48,11 +48,11 @@ namespace JogoPerguntaResposta
             }
             else if (rdbPergunta3RespostaD.Checked)
             {
-                Pontuacao = 0.4;
+                Pontuacao = 0.8;
             }
             else if (rdbPergunta3RespostaE.Checked)
             {
-                Pontuacao = 0.0;
+                Pontuacao = 1.0;
             }
 
 
@@ -61,6 +61,7 @@ namespace JogoPerguntaResposta
             FrmPergunta4 pergunta4 = new FrmPergunta4();
 
             pergunta4.NomeJogador = NomeJogador;
+            pergunta4.Pontuacao = Pontuacao;
             pergunta4.Show();
         }
 

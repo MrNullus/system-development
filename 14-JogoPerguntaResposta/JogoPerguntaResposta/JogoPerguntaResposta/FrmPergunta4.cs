@@ -13,6 +13,7 @@ namespace JogoPerguntaResposta
     public partial class FrmPergunta4 : Form
     {
         public string NomeJogador { get; set; }
+        public double Pontuacao { get; set; }
 
         public FrmPergunta4()
         {
@@ -31,6 +32,7 @@ namespace JogoPerguntaResposta
             FrmPergunta5 pergunta5 = new FrmPergunta5();
 
             pergunta5.NomeJogador = NomeJogador;
+            pergunta5.Pontuacao = Pontuacao;
             pergunta5.Show();
         }
 
