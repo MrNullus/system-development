@@ -14,6 +14,8 @@ namespace JogoPerguntaResposta
     {
 
         public string NomeJogador { get; set; }
+        public double Pontuacao { get; set; }
+        public int QtdeRespostasErradas { get; set; }
 
         public FrmPergunta7()
         {
@@ -27,11 +29,37 @@ namespace JogoPerguntaResposta
 
         private void btnResponder_Click(object sender, EventArgs e)
         {
+            if (QtdeRespostasErradas == 3) {
+                Pontuacao = 0;
+            } else if (rdbPergunta7RespostaA.Checked)
+            {
+                Pontuacao = 0.0;
+            }
+            else if (rdbPergunta7RespostaB.Checked)
+            {
+                Pontuacao = 1.0;
+            }
+            else if (rdbPergunta7RespostaC.Checked)
+            {
+                Pontuacao = 0.8;
+            }
+            else if (rdbPergunta7RespostaD.Checked)
+            {
+                Pontuacao = 0.6;
+            }
+            else if (rdbPergunta7RespostaE.Checked)
+            {
+                Pontuacao = 0.4;
+            }
+
+
             Hide();
 
             FrmPergunta8 pergunta8 = new FrmPergunta8();
-
+            pergunta8.QtdeRespostasErradas = QtdeRespostasErradas;
             pergunta8.NomeJogador = NomeJogador;
+            pergunta8.Pontuacao = Pontuacao;
+
             pergunta8.Show();
         }
 

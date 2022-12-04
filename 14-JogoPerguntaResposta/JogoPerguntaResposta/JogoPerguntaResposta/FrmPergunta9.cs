@@ -12,6 +12,10 @@ namespace JogoPerguntaResposta
 {
     public partial class FrmPergunta9 : Form
     {
+        public sting NomeJogador { get; set; }
+        public double Pontuacao { get; set; }
+        public int QtdeRespostasErradas { get; set; }
+
         public FrmPergunta9()
         {
             InitializeComponent();
@@ -21,15 +25,42 @@ namespace JogoPerguntaResposta
         {
             lblNomeJogador.Text = NomeJogador;   
         }
+        
 
         private void btnResponder_Click(object sender, EventArgs e)
         {
+            if (QtdeRespostasErradas == 3) {
+                Pontuacao = 0;
+            } else if (rdbPergunta9RespostaA.Checked)
+            {
+                Pontuacao = 0.6;
+            }
+            else if (rdbPergunta9RespostaB.Checked)
+            {
+                Pontuacao = 0.4;
+            }
+            else if (rdbPergunta9RespostaC.Checked)
+            {
+                Pontuacao = 0.0;
+            }
+            else if (rdbPergunta9RespostaD.Checked)
+            {
+                Pontuacao = 1.0;
+            }
+            else if (rdbPergunta9RespostaE.Checked)
+            {
+                Pontuacao = 0.8;
+            }
+
+
             Hide();
 
-            FrmPergunta9 pergunta9 = new FrmPergunta9();
+            FrmPergunta10 pergunta10 = new FrmPergunta10();
+            pergunta10.QtdeRespostasErradas = QtdeRespostasErradas;
+            pergunta10.NomeJogador = NomeJogador;
+            pergunta10.Pontuacao = Pontuacao;
 
-            pergunta9.NomeJogador = NomeJogador;
-            pergunta9.Show();
+            pergunta10.Show();
         }
 
         private void btnSair_Click(object sender, EventArgs e) 

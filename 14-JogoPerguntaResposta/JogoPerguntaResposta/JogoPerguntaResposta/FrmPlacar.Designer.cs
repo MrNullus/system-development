@@ -34,7 +34,7 @@ namespace JogoPerguntaResposta
             this.label2 = new System.Windows.Forms.Label();
             this.lblPontuacao = new System.Windows.Forms.Label();
             this.btnReiniciar = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -58,7 +58,6 @@ namespace JogoPerguntaResposta
             this.lblNomeJogador.Size = new System.Drawing.Size(92, 31);
             this.lblNomeJogador.TabIndex = 10;
             this.lblNomeJogador.Text = "label1";
-            this.lblNomeJogador.Click += new System.EventHandler(this.lblNomeJogador_Click);
             // 
             // label2
             // 
@@ -91,21 +90,23 @@ namespace JogoPerguntaResposta
             this.btnReiniciar.Name = "btnReiniciar";
             this.btnReiniciar.Size = new System.Drawing.Size(99, 80);
             this.btnReiniciar.TabIndex = 16;
-            this.btnReiniciar.Text = "Sair";
+            this.btnReiniciar.Text = "Reiniciar";
             this.btnReiniciar.UseVisualStyleBackColor = true;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
             // 
-            // button2
+            // btnSair
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlText;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Green;
-            this.button2.Location = new System.Drawing.Point(414, 183);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(271, 82);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Reiniciar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnSair.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.ForeColor = System.Drawing.Color.Green;
+            this.btnSair.Location = new System.Drawing.Point(414, 183);
+            this.btnSair.Name = "btnSa";
+            this.btnSair.Size = new System.Drawing.Size(271, 82);
+            this.btnSair.TabIndex = 15;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // FrmPlacar
             // 
@@ -136,6 +137,6 @@ namespace JogoPerguntaResposta
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblPontuacao;
         private System.Windows.Forms.Button btnReiniciar;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSair;
     }
 }

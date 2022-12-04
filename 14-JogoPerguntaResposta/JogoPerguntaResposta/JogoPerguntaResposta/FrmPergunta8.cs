@@ -13,6 +13,8 @@ namespace JogoPerguntaResposta
     public partial class FrmPergunta8 : Form
     {
         public string NomeJogador { get; set; }
+        public double Pontuacao { get; set; }
+        public int QtdeRespostasErradas { get; set; }
 
         public FrmPergunta8()
         {
@@ -26,12 +28,38 @@ namespace JogoPerguntaResposta
 
         private void btnResponder_Click(object sender, EventArgs e)
         {
+            if (QtdeRespostasErradas == 3) {
+                Pontuacao = 0;
+            } else if (rdbPergunta8RespostaA.Checked)
+            {
+                Pontuacao = 0.4;
+            }
+            else if (rdbPergunta8RespostaB.Checked)
+            {
+                Pontuacao = 0.0;
+            }
+            else if (rdbPergunta8RespostaC.Checked)
+            {
+                Pontuacao = 1.0;
+            }
+            else if (rdbPergunta8RespostaD.Checked)
+            {
+                Pontuacao = 0.8;
+            }
+            else if (rdbPergunta8RespostaE.Checked)
+            {
+                Pontuacao = 0.6;
+            }
+
+
             Hide();
 
-            FrmPergunta8 pergunta8 = new FrmPergunta8();
+            FrmPergunta9 pergunta9 = new FrmPergunta9();
+            pergunta9.QtdeRespostasErradas = QtdeRespostasErradas;
+            pergunta9.NomeJogador = NomeJogador;
+            pergunta9.Pontuacao = Pontuacao;
 
-            pergunta8.NomeJogador = NomeJogador;
-            pergunta8.Show();
+            pergunta9.Show();
         }
 
         private void btnSair_Click(object sender, EventArgs e) 

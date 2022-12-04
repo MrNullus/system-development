@@ -52,7 +52,7 @@ namespace JogoPerguntaResposta
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(194, 30);
             this.label2.TabIndex = 20;
-            this.label2.Text = "O Sol é de que cor?";
+            this.label2.Text = "Qual a cor do Sol?";
             // 
             // label1
             // 

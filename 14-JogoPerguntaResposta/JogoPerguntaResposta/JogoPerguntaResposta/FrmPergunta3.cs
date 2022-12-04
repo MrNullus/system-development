@@ -14,6 +14,7 @@ namespace JogoPerguntaResposta
     {
         public string NomeJogador { get; set; }
         public double Pontuacao { get; set; }
+        public int QtdeRespostasErradas { get; set; }
 
         public FrmPergunta3()
         {
@@ -24,6 +25,7 @@ namespace JogoPerguntaResposta
         {
             lblNomeJogador.Text = NomeJogador;
         }
+
 
         private void btnSair_Click(object sender, EventArgs e)
         {
@@ -37,18 +39,22 @@ namespace JogoPerguntaResposta
             if (rdbPergunta3RespostaA.Checked)
             {
                 Pontuacao = 0.0;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta3RespostaB.Checked)
             {
                 Pontuacao = 0.4;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta3RespostaC.Checked)
             {
                 Pontuacao = 0.6;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta3RespostaD.Checked)
             {
                 Pontuacao = 0.8;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta3RespostaE.Checked)
             {
@@ -59,9 +65,10 @@ namespace JogoPerguntaResposta
             Hide();
 
             FrmPergunta4 pergunta4 = new FrmPergunta4();
-
+            pergunta4.QtdeRespostasErradas = QtdeRespostasErradas;
             pergunta4.NomeJogador = NomeJogador;
             pergunta4.Pontuacao = Pontuacao;
+
             pergunta4.Show();
         }
 

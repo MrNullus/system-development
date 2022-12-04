@@ -89,7 +89,7 @@ namespace JogoPerguntaResposta
             this.btnSair.TabIndex = 10;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click_1);
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // lblNomeJogador
             // 
