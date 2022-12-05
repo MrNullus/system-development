@@ -12,10 +12,9 @@ namespace JogoPerguntaResposta
 {
     public partial class FrmPergunta10 : Form
     {
-        public sting NomeJogador { get; set; }
+        public string NomeJogador { get; set; }
         public double Pontuacao { get; set; }
-        public double Pontuacao { get; set; }
-        public int QtdeRespostasErradas { get; set; }
+        public int Ads { get; set; }
 
         public FrmPergunta10()
         {
@@ -55,7 +54,7 @@ namespace JogoPerguntaResposta
 
             Hide();
 
-            FrmPlacarFinal placarFinal = new FrmPlacarFinal();
+            FrmPlacar placarFinal = new FrmPlacar();
             placarFinal.NomeJogador = NomeJogador;
             placarFinal.Pontuacao = Pontuacao;
 
@@ -68,5 +67,7 @@ namespace JogoPerguntaResposta
             
             Close();
         }
+
+        public int QtdeRespostasErradas { get; set; }
     }
 }

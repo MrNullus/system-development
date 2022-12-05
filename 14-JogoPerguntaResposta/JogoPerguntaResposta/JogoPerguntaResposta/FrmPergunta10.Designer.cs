@@ -38,7 +38,7 @@ namespace JogoPerguntaResposta
             this.rdbPergunta10RespostaC = new System.Windows.Forms.RadioButton();
             this.rdbPergunta10RespostaE = new System.Windows.Forms.RadioButton();
             this.rdbPergunta10RespostaD = new System.Windows.Forms.RadioButton();
-            this.rdbPergunta10RespostaB = new System.Windows.Forms.RadioButtonrdbPergunta10RespostaB;
+            this.rdbPergunta10RespostaB = new System.Windows.Forms.RadioButton();
             this.rdbPergunta10RespostaA = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -95,11 +95,11 @@ namespace JogoPerguntaResposta
             // lblNomeJogador
             // 
             this.lblNomeJogador.AutoSize = true;
-            this.lblNomeJogador.Font = new System.Drawing.Font("Myriad Pro Cond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeJogador.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNomeJogador.ForeColor = System.Drawing.Color.Gold;
             this.lblNomeJogador.Location = new System.Drawing.Point(1030, 59);
             this.lblNomeJogador.Name = "lblNomeJogador";
-            this.lblNomeJogador.Size = new System.Drawing.Size(73, 33);
+            this.lblNomeJogador.Size = new System.Drawing.Size(92, 31);
             this.lblNomeJogador.TabIndex = 9;
             this.lblNomeJogador.Text = "label1";
             // 
@@ -108,7 +108,7 @@ namespace JogoPerguntaResposta
             this.groupBox1.Controls.Add(this.rdbPergunta10RespostaC);
             this.groupBox1.Controls.Add(this.rdbPergunta10RespostaE);
             this.groupBox1.Controls.Add(this.rdbPergunta10RespostaD);
-            this.groupBox1.Controls.Add(this.rdbPergunta10RespostaB;
+            this.groupBox1.Controls.Add(this.rdbPergunta10RespostaB);
             this.groupBox1.Controls.Add(this.rdbPergunta10RespostaA);
             this.groupBox1.Location = new System.Drawing.Point(131, 268);
             this.groupBox1.Name = "groupBox1";
@@ -150,7 +150,7 @@ namespace JogoPerguntaResposta
             this.rdbPergunta10RespostaD.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.rdbPergunta10RespostaD.Location = new System.Drawing.Point(7, 100);
             this.rdbPergunta10RespostaD.Name = "rdbPergunta10RespostaD";
-            this.rdbPergunta10RespostaD.Size = new System.Drawing.Size(384, 26);
+            this.rdbPergunta10RespostaD.Size = new System.Drawing.Size(381, 26);
             this.rdbPergunta10RespostaD.TabIndex = 3;
             this.rdbPergunta10RespostaD.TabStop = true;
             this.rdbPergunta10RespostaD.Text = "\"Quando estiver sonhando, eu vou estar lá.\"";
@@ -158,16 +158,15 @@ namespace JogoPerguntaResposta
             // 
             // rdbPergunta10RespostaB
             // 
-            this.rdbPergunta10RespostaB.AutoSize = rdbPergunta10RespostaB;
-            this.rdbPergunta10RespostaB.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(rdbPergunta10RespostaB;
-            this.rdbPergunta10RespostaB.ForeColor = System.Drawing.SystemColors.rdbPergunta10RespostaB;
-            this.rdbPergunta10RespostaB.Location = new System.Drawing.Point(7, rdbPergunta10RespostaB;
-            this.rdbPergunta10RespostaB.Name = "rdbPergunta10RespostaB;
-            this.rdbPergunta10RespostaB.Size = new System.Drawing.Size(198, rdbPergunta10RespostaB;
-            this.rdbPergunta10RespostaB.TabIndex = rdbPergunta10RespostaB;
-            this.rdbPergunta10RespostaB.TabStop = rdbPergunta10RespostaB;
+            this.rdbPergunta10RespostaB.AutoSize = true;
+            this.rdbPergunta10RespostaB.Font = new System.Drawing.Font("NewsGoth BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPergunta10RespostaB.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.rdbPergunta10RespostaB.Location = new System.Drawing.Point(6, 62);
+            this.rdbPergunta10RespostaB.Name = "rdbPergunta10RespostaB";
+            this.rdbPergunta10RespostaB.Size = new System.Drawing.Size(201, 26);
+            this.rdbPergunta10RespostaB.TabIndex = 5;
             this.rdbPergunta10RespostaB.Text = "\"e essa Fanta é Coca\"";
-            this.rdbPergunta10RespostaB.UseVisualStyleBackColor = rdbPergunta10RespostaB;
+            this.rdbPergunta10RespostaB.UseVisualStyleBackColor = true;
             // 
             // rdbPergunta10RespostaA
             // 
@@ -199,6 +198,7 @@ namespace JogoPerguntaResposta
             this.Name = "FrmPergunta10";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPergunta10";
+            this.Load += new System.EventHandler(this.FrmPergunta10_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

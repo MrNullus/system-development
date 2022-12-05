@@ -12,7 +12,7 @@ namespace JogoPerguntaResposta
 {
     public partial class FrmPlacar : Form
     {
-        public sting NomeJogador { get; set; }
+        public string NomeJogador { get; set; }
         public double Pontuacao { get; set; }
 
         public FrmPlacar()
@@ -22,11 +22,12 @@ namespace JogoPerguntaResposta
 
         private void FrmPlacar_Load(object sender, EventArgs e) {
             lblNomeJogador.Text = NomeJogador;
-            lblPontuacao.Text = Pontuacao;
+            lblPontuacao.Text = Convert.ToString(Pontuacao);
         }
 
 
-        private void btnReiniciar_Click() {
+        private void btnReiniciar_Click(object sender, EventArgs e)
+        {
             MessageBox.Show("O jogo será reiniciado...");
             Hide();
 
@@ -36,8 +37,6 @@ namespace JogoPerguntaResposta
 
         private void btnSair_Click(object sender, EventArgs e) 
         {
-            MessageBox.Show("Se sair agora, a pontuação será perdida!");
-            
             Close();
         }
     }

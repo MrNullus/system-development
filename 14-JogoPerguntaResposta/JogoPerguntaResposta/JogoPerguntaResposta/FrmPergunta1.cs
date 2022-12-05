@@ -27,11 +27,6 @@ namespace JogoPerguntaResposta
             lblNomeJogador.Text = NomeJogador;
         }
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-           
-        }
-
         private void btnResponder_Click(object sender, EventArgs e)
         {
             if (rdbPergunta1RespostaA.Checked)

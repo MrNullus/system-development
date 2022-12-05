@@ -23,7 +23,7 @@ namespace JogoPerguntaResposta
 
         private void FrmPergunta4_Load(object sender, EventArgs e)
         {
-            lblNomeJogador.Text = NomeJogador;
+            lblNomeJogador.Text = NomeJogador + Convert.ToString(Pontuacao);
         }
         
         private void btnResponder_Click(object sender, EventArgs e)

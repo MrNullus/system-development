@@ -12,7 +12,7 @@ namespace JogoPerguntaResposta
 {
     public partial class FrmPergunta9 : Form
     {
-        public sting NomeJogador { get; set; }
+        public string NomeJogador { get; set; }
         public double Pontuacao { get; set; }
         public int QtdeRespostasErradas { get; set; }
 

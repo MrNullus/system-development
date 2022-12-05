@@ -76,7 +76,8 @@ namespace JogoPerguntaResposta
             this.btnResponder.Size = new System.Drawing.Size(863, 78);
             this.btnResponder.TabIndex = 11;
             this.btnResponder.Text = "Responder";
-            this.btnResponder.UseVisualStyleBackColor = false;
+            this.btnResponder.UseVisualStyleBackColor = true;
+            this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
             // 
             // btnSair
             // 

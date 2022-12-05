@@ -95,11 +95,11 @@ namespace JogoPerguntaResposta
             // lblNomeJogador
             // 
             this.lblNomeJogador.AutoSize = true;
-            this.lblNomeJogador.Font = new System.Drawing.Font("Myriad Pro Cond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeJogador.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNomeJogador.ForeColor = System.Drawing.Color.Gold;
             this.lblNomeJogador.Location = new System.Drawing.Point(1030, 59);
             this.lblNomeJogador.Name = "lblNomeJogador";
-            this.lblNomeJogador.Size = new System.Drawing.Size(73, 33);
+            this.lblNomeJogador.Size = new System.Drawing.Size(92, 31);
             this.lblNomeJogador.TabIndex = 9;
             this.lblNomeJogador.Text = "label1";
             // 
@@ -199,6 +199,7 @@ namespace JogoPerguntaResposta
             this.Name = "FrmPergunta7";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPergunta7";
+            this.Load += new System.EventHandler(this.FrmPergunta7_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

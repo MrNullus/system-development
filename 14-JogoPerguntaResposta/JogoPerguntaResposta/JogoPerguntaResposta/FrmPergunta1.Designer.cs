@@ -146,7 +146,6 @@ namespace JogoPerguntaResposta
             this.rdbPergunta1RespostaB.TabStop = true;
             this.rdbPergunta1RespostaB.Text = "Pied Piper";
             this.rdbPergunta1RespostaB.UseVisualStyleBackColor = true;
-            this.rdbPergunta1RespostaB.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // rdbPergunta1RespostaA
             // 

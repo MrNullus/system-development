@@ -54,7 +54,7 @@ namespace JogoPerguntaResposta
 
             Hide();
 
-            FrmPergunta5 pergunta5 = new FrmPergunta5();
+            FrmPergunta6 pergunta6 = new FrmPergunta6();
             pergunta6.QtdeRespostasErradas = QtdeRespostasErradas;
             pergunta6.NomeJogador = NomeJogador;
             pergunta6.Pontuacao = Pontuacao;

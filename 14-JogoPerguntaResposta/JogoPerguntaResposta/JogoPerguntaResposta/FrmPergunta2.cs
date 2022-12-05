@@ -53,7 +53,7 @@ namespace JogoPerguntaResposta
             FrmPergunta3 pergunta3 = new FrmPergunta3();
             pergunta3.QtdeRespostasErradas = QtdeRespostasErradas;      
             pergunta3.NomeJogador = NomeJogador;
-            pergunta3.Pontuacao = Pontuacao;
+            pergunta3.Pontuacao += Pontuacao;
 
             pergunta3.Show();
         }
