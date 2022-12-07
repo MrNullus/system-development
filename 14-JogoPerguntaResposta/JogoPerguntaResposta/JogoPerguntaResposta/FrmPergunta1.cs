@@ -37,7 +37,6 @@ namespace JogoPerguntaResposta
             else if (rdbPergunta1RespostaB.Checked)
             {
                 Pontuacao = 1.0;
-                QtdeRespostasErradas = 0;
             }
             else if (rdbPergunta1RespostaC.Checked)
             {

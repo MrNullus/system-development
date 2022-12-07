@@ -14,7 +14,7 @@ namespace JogoPerguntaResposta
     {
         public string NomeJogador { get; set; }
         public double Pontuacao { get; set; }
-        public int Ads { get; set; }
+        public int QtdeRespostasErradas { get; set; }
 
         public FrmPergunta10()
         {
@@ -28,33 +28,39 @@ namespace JogoPerguntaResposta
 
         private void btnResponder_Click(object sender, EventArgs e)
         {
-            if (QtdeRespostasErradas == 3) {
+            if (QtdeRespostasErradas == 4)
+            {
                 Pontuacao = 0;
             } else if (rdbPergunta10RespostaA.Checked)
             {
-                Pontuacao = 0.6;
+                Pontuacao += 0.6;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta10RespostaB.Checked)
             {
-                Pontuacao = 0.4;
+                Pontuacao += 0.4;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta10RespostaC.Checked)
             {
-                Pontuacao = 0.0;
+                Pontuacao += 0.0;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta10RespostaD.Checked)
             {
-                Pontuacao = 1.0;
+                Pontuacao += 1.0;
             }
             else if (rdbPergunta10RespostaE.Checked)
             {
-                Pontuacao = 0.8;
+                Pontuacao += 0.8;
+                QtdeRespostasErradas += 1;
             }
 
 
             Hide();
 
             FrmPlacar placarFinal = new FrmPlacar();
+            placarFinal.QtdeRespostasErradas = QtdeRespostasErradas;
             placarFinal.NomeJogador = NomeJogador;
             placarFinal.Pontuacao = Pontuacao;
 
@@ -67,7 +73,5 @@ namespace JogoPerguntaResposta
             
             Close();
         }
-
-        public int QtdeRespostasErradas { get; set; }
     }
 }

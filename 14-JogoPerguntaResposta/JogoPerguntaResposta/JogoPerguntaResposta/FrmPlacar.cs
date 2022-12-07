@@ -14,15 +14,17 @@ namespace JogoPerguntaResposta
     {
         public string NomeJogador { get; set; }
         public double Pontuacao { get; set; }
+        public int QtdeRespostasErradas { get; set; }
 
         public FrmPlacar()
         {
             InitializeComponent();
         }
 
-        private void FrmPlacar_Load(object sender, EventArgs e) {
+        private void FrmPlacar_Load(object sender, EventArgs e) {   
             lblNomeJogador.Text = NomeJogador;
-            lblPontuacao.Text = Convert.ToString(Pontuacao);
+            lblAcertos.Text = Convert.ToString(Pontuacao);
+            lblErros.Text = Convert.ToString(QtdeRespostasErradas);
         }
 
 
@@ -39,5 +41,7 @@ namespace JogoPerguntaResposta
         {
             Close();
         }
+
+       
     }
 }

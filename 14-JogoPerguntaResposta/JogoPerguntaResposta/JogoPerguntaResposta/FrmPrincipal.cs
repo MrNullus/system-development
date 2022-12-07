@@ -24,11 +24,16 @@ namespace JogoPerguntaResposta
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
+            if (txtNomeJogador.Text == string.Empty)
+            {
+                MessageBox.Show("Preencha o campo nome", "Ops!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             // esconder o formulario ativo no momento
             Hide();
 
             FrmPergunta1 pergunta1 = new FrmPergunta1();
-
             pergunta1.NomeJogador = txtNomeJogador.Text;
             pergunta1.Show();
         }

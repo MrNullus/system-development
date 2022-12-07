@@ -23,7 +23,7 @@ namespace JogoPerguntaResposta
 
         private void FrmPergunta3_Load(object sender, EventArgs e)
         {
-            lblNomeJogador.Text = NomeJogador + Convert.ToString(Pontuacao);
+            lblNomeJogador.Text = NomeJogador;
         }
 
 
@@ -38,27 +38,27 @@ namespace JogoPerguntaResposta
         {
             if (rdbPergunta3RespostaA.Checked)
             {
-                Pontuacao = 0.0;
+                Pontuacao += 0.0;
                 QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta3RespostaB.Checked)
             {
-                Pontuacao = 0.4;
+                Pontuacao += 0.4;
                 QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta3RespostaC.Checked)
             {
-                Pontuacao = 0.6;
+                Pontuacao += 0.6;
                 QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta3RespostaD.Checked)
             {
-                Pontuacao = 0.8;
+                Pontuacao += 0.8;
                 QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta3RespostaE.Checked)
             {
-                Pontuacao = 1.0;
+                Pontuacao += 1.0;
             }
 
 

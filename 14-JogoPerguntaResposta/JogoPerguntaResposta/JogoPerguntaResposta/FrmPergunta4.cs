@@ -23,32 +23,34 @@ namespace JogoPerguntaResposta
 
         private void FrmPergunta4_Load(object sender, EventArgs e)
         {
-            lblNomeJogador.Text = NomeJogador + Convert.ToString(Pontuacao);
+            lblNomeJogador.Text = NomeJogador;
         }
         
         private void btnResponder_Click(object sender, EventArgs e)
         {   
-            if (QtdeRespostasErradas == 3) {
-                Pontuacao = 0;
-            } else if (rdbPergunta4RespostaA.Checked)
+            if (rdbPergunta4RespostaA.Checked)
             {
                 Pontuacao = 0.0;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta4RespostaB.Checked)
             {
-                Pontuacao = 1.0;
+                Pontuacao += 1.0;
             }
             else if (rdbPergunta4RespostaC.Checked)
             {
-                Pontuacao = 0.8;
+                Pontuacao += 0.8;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta4RespostaD.Checked)
             {
-                Pontuacao = 0.6;
+                Pontuacao += 0.6;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta4RespostaE.Checked)
             {
-                Pontuacao = 0.4;
+                Pontuacao += 0.4;
+                QtdeRespostasErradas += 1;
             }
 
 

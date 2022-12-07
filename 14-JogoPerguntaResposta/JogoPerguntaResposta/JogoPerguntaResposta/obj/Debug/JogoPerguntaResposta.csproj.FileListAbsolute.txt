@@ -59,3 +59,7 @@ C:\Users\EtecMorato\Desktop\system-development\14-JogoPerguntaResposta\JogoPergu
 C:\Users\EtecMorato\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.csproj.GenerateResource.Cache
 C:\Users\EtecMorato\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPlacar.resources
 >>>>>>> b5057a1089d5b3a6ba9941e02489dba917a98f0c
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta10.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta8.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPergunta9.resources
+C:\Users\Etec\Desktop\system-development\14-JogoPerguntaResposta\JogoPerguntaResposta\JogoPerguntaResposta\obj\Debug\JogoPerguntaResposta.FrmPlacar.resources

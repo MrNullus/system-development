@@ -29,27 +29,31 @@ namespace JogoPerguntaResposta
 
         private void btnResponder_Click(object sender, EventArgs e)
         {
-            if (QtdeRespostasErradas == 3) {
+            if (QtdeRespostasErradas == 4) {
                 Pontuacao = 0;
             } else if (rdbPergunta9RespostaA.Checked)
             {
-                Pontuacao = 0.6;
+                Pontuacao += 0.6;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta9RespostaB.Checked)
             {
-                Pontuacao = 0.4;
+                Pontuacao += 0.4;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta9RespostaC.Checked)
             {
-                Pontuacao = 0.0;
+                Pontuacao += 0.0;
+                QtdeRespostasErradas += 1;
             }
             else if (rdbPergunta9RespostaD.Checked)
             {
-                Pontuacao = 1.0;
+                Pontuacao += 1.0;
             }
             else if (rdbPergunta9RespostaE.Checked)
             {
-                Pontuacao = 0.8;
+                Pontuacao += 0.8;
+                QtdeRespostasErradas += 1;
             }
 
 

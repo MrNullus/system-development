@@ -32,9 +32,11 @@ namespace JogoPerguntaResposta
             this.label1 = new System.Windows.Forms.Label();
             this.lblNomeJogador = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblPontuacao = new System.Windows.Forms.Label();
+            this.lblAcertos = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnReiniciar = new System.Windows.Forms.Button();
+            this.lblErros = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -63,30 +65,30 @@ namespace JogoPerguntaResposta
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label2.ForeColor = System.Drawing.Color.Gold;
+            this.label2.ForeColor = System.Drawing.Color.Lime;
             this.label2.Location = new System.Drawing.Point(501, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 29);
+            this.label2.Size = new System.Drawing.Size(100, 29);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Pontuação:";
+            this.label2.Text = "Acertos:";
             // 
-            // lblPontuacao
+            // lblAcertos
             // 
-            this.lblPontuacao.AutoSize = true;
-            this.lblPontuacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPontuacao.ForeColor = System.Drawing.Color.Lime;
-            this.lblPontuacao.Location = new System.Drawing.Point(640, 116);
-            this.lblPontuacao.Name = "lblPontuacao";
-            this.lblPontuacao.Size = new System.Drawing.Size(92, 31);
-            this.lblPontuacao.TabIndex = 12;
-            this.lblPontuacao.Text = "label1";
+            this.lblAcertos.AutoSize = true;
+            this.lblAcertos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAcertos.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblAcertos.Location = new System.Drawing.Point(615, 119);
+            this.lblAcertos.Name = "lblAcertos";
+            this.lblAcertos.Size = new System.Drawing.Size(92, 31);
+            this.lblAcertos.TabIndex = 12;
+            this.lblAcertos.Text = "label1";
             // 
             // btnSair
             // 
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.Color.Red;
-            this.btnSair.Location = new System.Drawing.Point(621, 183);
+            this.btnSair.Location = new System.Drawing.Point(649, 244);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(238, 80);
             this.btnSair.TabIndex = 16;
@@ -100,13 +102,35 @@ namespace JogoPerguntaResposta
             this.btnReiniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReiniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReiniciar.ForeColor = System.Drawing.Color.Green;
-            this.btnReiniciar.Location = new System.Drawing.Point(357, 183);
+            this.btnReiniciar.Location = new System.Drawing.Point(357, 244);
             this.btnReiniciar.Name = "btnReiniciar";
-            this.btnReiniciar.Size = new System.Drawing.Size(252, 82);
+            this.btnReiniciar.Size = new System.Drawing.Size(274, 82);
             this.btnReiniciar.TabIndex = 15;
             this.btnReiniciar.Text = "Reiniciar";
             this.btnReiniciar.UseVisualStyleBackColor = false;
             this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
+            // 
+            // lblErros
+            // 
+            this.lblErros.AutoSize = true;
+            this.lblErros.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErros.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblErros.Location = new System.Drawing.Point(615, 161);
+            this.lblErros.Name = "lblErros";
+            this.lblErros.Size = new System.Drawing.Size(92, 31);
+            this.lblErros.TabIndex = 18;
+            this.lblErros.Text = "label1";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.label12.ForeColor = System.Drawing.Color.Red;
+            this.label12.Location = new System.Drawing.Point(501, 161);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(77, 29);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "Erros:";
             // 
             // FrmPlacar
             // 
@@ -114,9 +138,11 @@ namespace JogoPerguntaResposta
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1229, 687);
+            this.Controls.Add(this.lblErros);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnReiniciar);
-            this.Controls.Add(this.lblPontuacao);
+            this.Controls.Add(this.lblAcertos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblNomeJogador);
             this.Controls.Add(this.label1);
@@ -136,8 +162,10 @@ namespace JogoPerguntaResposta
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblNomeJogador;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblPontuacao;
+        private System.Windows.Forms.Label lblAcertos;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnReiniciar;
+        private System.Windows.Forms.Label lblErros;
+        private System.Windows.Forms.Label label12;
     }
 }
