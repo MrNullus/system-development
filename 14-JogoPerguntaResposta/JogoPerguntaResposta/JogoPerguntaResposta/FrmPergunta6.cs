@@ -30,7 +30,9 @@ namespace JogoPerguntaResposta
         {
             if (QtdeRespostasErradas == 4) {
                 Pontuacao = 0;
-            } else if (rdbPergunta6RespostaA.Checked)
+            }
+            
+            if (rdbPergunta6RespostaA.Checked)
             {
                 Pontuacao += 0.6;
                 QtdeRespostasErradas += 1;
@@ -53,6 +55,11 @@ namespace JogoPerguntaResposta
             {
                 Pontuacao += 0.8;
                 QtdeRespostasErradas += 1;
+            }
+            else
+            {
+                MessageBox.Show("Escolha uma alternativa", "Ops!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
 
 

@@ -47,6 +47,11 @@ namespace JogoPerguntaResposta
                 Pontuacao += 0.0;
                 QtdeRespostasErradas += 1;
             }
+            else
+            {
+                MessageBox.Show("Escolha uma alternativa", "Ops!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             Hide();
 

@@ -60,6 +60,11 @@ namespace JogoPerguntaResposta
             {
                 Pontuacao += 1.0;
             }
+            else
+            {
+                MessageBox.Show("Escolha uma alternativa", "Ops!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
 
             Hide();
